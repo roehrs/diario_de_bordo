@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilização da barra de rolagem (Scrollbar) personalizada para a lista de módulos */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f3f4f6; /* cor cinza claro */
+  border-radius: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #d1d5db; /* cor cinza médio */
+  border-radius: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af; /* cor cinza escuro ao passar o rato */
+}
+
+/* Garante que o fundo da página inteira tenha a cor correta */
+body {
+  background-color: #f3f4f6;
+  margin: 0;
+  padding: 0;
+}
